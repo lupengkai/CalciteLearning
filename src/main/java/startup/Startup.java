@@ -1,9 +1,6 @@
-import org.apache.calcite.adapter.java.ReflectiveSchema;
-import org.apache.calcite.adapter.jdbc.JdbcSchema;
-import org.apache.calcite.jdbc.CalciteConnection;
+package startup;
 
-import org.apache.calcite.plan.RelOptRule;
-import org.apache.commons.dbcp.BasicDataSource;
+import org.apache.calcite.jdbc.CalciteConnection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
